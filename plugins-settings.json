@@ -1,0 +1,45 @@
+{
+    "2bd1c688-31c5-443e-ae25-59aa5b6431fb": {
+        "id": "96d3c76d-4798-41f8-9a43-70f90517b068",
+        "name": "REST API",
+        "designId": "509f91a2-8d41-4ee6-aaba-01f55f37d331",
+        "pluginId": "2bd1c688-31c5-443e-ae25-59aa5b6431fb",
+        "publicData": {}
+    },
+    "9c40819b-4a8f-468f-9ba5-4b9699f3361f": {
+        "id": "b1e3817b-6e6a-480d-a27e-78712ba345ca",
+        "name": "Charts",
+        "designId": "509f91a2-8d41-4ee6-aaba-01f55f37d331",
+        "pluginId": "9c40819b-4a8f-468f-9ba5-4b9699f3361f",
+        "publicData": {}
+    },
+    "fdf6b667-9515-4086-87ef-6042fc6f20fb": {
+        "id": "9112aacc-a83b-425e-874d-a6528e2eb8af",
+        "name": "Google Sheets",
+        "designId": "509f91a2-8d41-4ee6-aaba-01f55f37d331",
+        "pluginId": "fdf6b667-9515-4086-87ef-6042fc6f20fb",
+        "publicData": {}
+    },
+    "f9ef41c3-1c53-4857-855b-f2f6a40b7186": {
+        "id": "9bc48ab5-d7d9-4f5f-9d3f-c8296aec6f45",
+        "name": "Supabase",
+        "designId": "509f91a2-8d41-4ee6-aaba-01f55f37d331",
+        "pluginId": "f9ef41c3-1c53-4857-855b-f2f6a40b7186",
+        "publicData": {
+            "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRvY2xvdGhxYmJ6bnhjdXJya3V2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI0MzMzODgsImV4cCI6MjA3ODAwOTM4OH0.Qfw_o34CR1JVcNBb3yA6Vb8EiTzL0raqc-acDJqA24A",
+            "projectUrl": "https://toclothqbbznxcurrkuv.supabase.co",
+            "customDomain": "",
+            "environments": {
+                "production": {
+                    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRvY2xvdGhxYmJ6bnhjdXJya3V2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI0MzMzODgsImV4cCI6MjA3ODAwOTM4OH0.Qfw_o34CR1JVcNBb3yA6Vb8EiTzL0raqc-acDJqA24A",
+                    "branch": null,
+                    "branchSlug": null,
+                    "projectUrl": "https://toclothqbbznxcurrkuv.supabase.co",
+                    "customDomain": "",
+                    "baseProjectRef": "toclothqbbznxcurrkuv"
+                }
+            },
+            "realtimeTables": {}
+        }
+    }
+}
