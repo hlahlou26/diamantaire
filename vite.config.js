@@ -40,6 +40,9 @@ for (const pageName in pages) {
     rollupOptionsInput[pageName] = path.resolve(__dirname, pages[pageName].outputDir, 'index.html');
 }
 
+// Add MyToys e-commerce app entry point
+rollupOptionsInput['ecommerce'] = path.resolve(__dirname, 'ecommerce/index.html');
+
 export default defineConfig(() => {
     return {
         plugins: [nodePolyfills({ include: ['events', 'stream', 'string_decoder'] }), vue()],
