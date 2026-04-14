@@ -6,7 +6,6 @@ import path from 'path';
 export default defineConfig({
     plugins: [vue()],
     base: '/',
-    root: path.resolve(__dirname, 'ecommerce'),
     resolve: {
         alias: {
             '@': path.resolve(__dirname, './src'),
@@ -24,9 +23,13 @@ export default defineConfig({
     },
     server: {
         port: 5173,
-        open: true,
     },
     build: {
+        rollupOptions: {
+            input: {
+                ecommerce: path.resolve(__dirname, 'ecommerce/index.html'),
+            },
+        },
         outDir: path.resolve(__dirname, 'dist/ecommerce'),
         emptyOutDir: true,
     },
